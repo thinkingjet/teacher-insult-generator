@@ -1,0 +1,517 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Roast your teachers</title>
+<link rel="STYLESHEET" href="roast.css" type="text/css">
+</head>
+<body>
+<h1> <em class="emphasis-2">AI-powered Teacher Roast Generator</em></h1>
+<body>
+<!-- partial:index.partial.html -->
+<ol class="snow-bros">
+  <li class="r"></li>
+  <li class="o"></li>
+  <li class="a"></li>
+  <li class="s"></li>
+  <li class="t"></li>
+  <li class="hide" ></li>
+  <li class="t"></li>
+  <li class="e"></li>
+  <li class="a"></li>
+  <li class="c"></li>
+  <li class="h"></li>
+  <li class="e"></li>
+  <li class="r"></li>
+  <li class="s"></li>
+</ol>
+
+
+</body>
+<script language="JavaScript">
+var O=0
+var S=0
+var G=0
+var P=0
+var I=0
+var W=0
+var L=0
+var tname="Your teacher"
+var Insult=""
+var resolution=""
+function process()
+{
+
+BuildInsult()
+alert(Insult)
+}
+
+function BuildInsult(){
+currentdate = new Date ()
+seconds = currentdate.getSeconds()
+
+if (S==1)
+Insult = teachername() + " is a " + BadHabit() + Intelligence() + Weight() + Looks() + Gender() + "!!!!"
+else if (S==2)
+Insult = teachername() + " is a " + BadHabit() + Intelligence() + Weight() + Looks() + Ending() + Gender() + "!!!!"
+else if(S==3)
+Insult = teachername() + " is a " + RandomEnd() + BadHabit() + Intelligence() + Weight() + Looks() + Ending() + Gender() + "!!!!"
+else if (S==0)
+Insult = teachername() + " is a " + BadHabit() + Intelligence() + Weight() + Looks() + Gender() + "!!!!"
+}
+
+
+function teachername()
+{
+return tname
+}
+
+function changename()
+{
+tname=prompt("Enter your teacher's name:","");
+}
+
+function RandomMale(){
+
+	if (seconds <6)
+		return "dumb "
+	else if (seconds <11)
+		return "barking "
+	else if (seconds <16)
+		return "stupid "
+	else if (seconds <21)
+		return "jerk "
+	else if (seconds <26)
+		return "dunce "
+	else if (seconds <31)
+		return "dingbat "
+	else if (seconds <36)
+		return "dipstick "
+	else if (seconds <41)
+		return "jackass "
+	else if (seconds <46)
+		return "galah "
+	else if (seconds <51)
+		return "prick "
+	else if (seconds <56)
+		return "scum "
+	else if (seconds <61)
+		return "mouth breather "
+}
+
+function RandomFemale(){
+
+	if (seconds <6)
+		return "hag "
+	else if (seconds <11)
+		return "witch "
+	else if (seconds <16)
+		return "blonde "
+	else if (seconds <21)
+		return "virago "
+	else if (seconds <26)
+		return "cow "
+	else if (seconds <31)
+		return "battleaxe "
+	else if (seconds <36)
+		return "frump "
+	else if (seconds <41)
+		return "creep "
+	else if (seconds <46)
+		return "arm candy "
+	else if (seconds <51)
+		return "cow "
+	else if (seconds <56)
+		return "bird "
+	else if (seconds <61)
+		return "witch "
+
+}
+
+function RandomNeutral(){
+
+	if (seconds <6)
+		return "pukebreath "
+	else if (seconds <11)
+		return "frotterist "
+	else if (seconds <16)
+		return "creep "
+	else if (seconds <21)
+		return "craphead "
+	else if (seconds <26)
+		return "stupid "
+	else if (seconds <31)
+		return "cretin "
+	else if (seconds <36)
+		return "retard "
+	else if (seconds <41)
+		return "spastic "
+	else if (seconds <46)
+		return "stick "
+	else if (seconds <51)
+		return "twit "
+	else if (seconds <56)
+		return "loser "
+	else if (seconds <61)
+		return "poopoohead "
+
+}
+
+function RandomHomework(){
+
+	if (seconds <15)
+		return "slave-driving "
+	else if (seconds <25)
+		return "whip-holding "
+	else if (seconds <37)
+		return "labour-obsessed "
+	else if (seconds <45)
+		return "labour-obsessed "
+	else if (seconds <53)
+		return "slave-driving "
+	else if (seconds <60)
+		return "heartless "
+}
+
+function RandomUnfair(){
+
+	if (seconds <7)
+		return "unfair "
+	else if (seconds <15)
+		return "fascist "
+	else if (seconds <24)
+		return "ignorant "
+	else if (seconds <38)
+		return "blind "
+	else if (seconds <50)
+		return "ignorant "
+	else if (seconds <60)
+		return "unconcerned "
+}
+
+function RandomBadMemory(){
+
+	if (seconds <12)
+		return "forgetful "
+	else if (seconds <20)
+		return "mentally-challenged "
+	else if (seconds <30)
+		return "memobook-dependant "
+	else if (seconds <44)
+		return "unsure "
+	else if (seconds <57)
+		return "confused "
+	else if (seconds <60)
+		return "useless "
+}
+
+function RandomSmart(){
+
+	if (seconds <7)
+		return "book-scavenging "
+	else if (seconds <13)
+		return "four-eyed "
+	else if (seconds <19)
+		return "bubble-headed "
+	else if (seconds <25)
+		return "Einstein-impersonating "
+	else if (seconds <31)
+		return "arrogant "
+	else if (seconds <37)
+		return "overqualified "
+	else if (seconds <43)
+		return "spastic "
+	else if (seconds <49)
+		return "arrogant "
+	else if (seconds <55)
+		return "pink-brained "
+	else if (seconds <61)
+		return "overqualified "
+
+}
+
+function RandomStupid(){
+
+	if (seconds <8)
+		return "dumb "
+	else if (seconds <16)
+		return "brainless "
+	else if (seconds <27)
+		return "brain-dead "
+	else if (seconds <36)
+		return "dumb "
+	else if (seconds <45)
+		return "witless "
+	else if (seconds <56)
+		return "airheaded "
+	else if (seconds <60)
+		return "moronic "
+	else if (seconds <60)
+		return "pea-brained "
+	else if (seconds <60)
+		return "nit-witted "
+	else if (seconds <60)
+		return "chicken-brained "
+	else if (seconds <60)
+		return "dumb "
+	else if (seconds <60)
+		return "idiotic "
+	else if (seconds <60)
+		return "dense "
+}
+
+function RandomFat(){
+
+	if (seconds <5)
+		return "fat "
+	else if (seconds <11)
+		return "chubby "
+	else if (seconds <17)
+		return "porky "
+	else if (seconds <23)
+		return "blown-up "
+	else if (seconds <29)
+		return "extra large "
+	else if (seconds <35)
+		return "huge "
+	else if (seconds <42)
+		return "pregnant "
+	else if (seconds <48)
+		return "cow-like "
+	else if (seconds <53)
+		return "fat "
+	else if (seconds <58)
+		return "round "
+	else if (seconds <61)
+		return "pudgy "
+
+}
+
+function RandomSkinny(){
+
+	if (seconds <12)
+		return "pencil-necked "
+	else if (seconds <22)
+		return "meatless "
+	else if (seconds <30)
+		return "anorexic "
+	else if (seconds <43)
+		return "meatless "
+	else if (seconds <52)
+		return "bony "
+	else if (seconds <60)
+		return "scrawny "
+}
+
+function RandomHot(){
+
+	if (seconds <13)
+		return "conceited "
+	else if (seconds <24)
+		return "self-absorbed "
+	else if (seconds <35)
+		return "vain "
+	else if (seconds <46)
+		return "egotistical "
+	else if (seconds <51)
+		return "self-loving "
+	else if (seconds <60)
+		return "mirror-obsessed "
+
+}
+
+function RandomDog(){
+
+	if (seconds <8)
+		return "ugly "
+	else if (seconds <15)
+		return "puke-inducing "
+	else if (seconds <23)
+		return "barforific "
+	else if (seconds <31)
+		return "ugolicious "
+	else if (seconds <41)
+		return "vomitrocious "
+	else if (seconds <49)
+		return "up-chuck-inspiring "
+  	else if (seconds <55)
+		return "dog-faced "
+ 	else if (seconds <60)
+		return "pus-lipped "
+}
+
+function RandomIntenseEnd(){
+
+	if (seconds <15)
+		return "smelly-assed "
+	else if (seconds <23)
+		return "trashy "
+	else if (seconds <29)
+		return "rectum-sniffing "
+	else if (seconds <41)
+		return "puke-worthy "
+	else if (seconds <52)
+		return "village idiot "
+	else if (seconds <60)
+		return "gutter-smelling "
+}
+
+function RandomEnd(){
+
+	if (seconds <15)
+		return "garbage-like "
+	else if (seconds <23)
+		return "damn "
+	else if (seconds <29)
+		return "lame "
+	else if (seconds <41)
+		return "pathetic "
+	else if (seconds <52)
+		return "pathetic "
+	else if (seconds <60)
+		return "fart-sniffing "
+}
+
+function General(){
+	if (S==1)
+	return ""
+	else if (S==2)
+	return "damn "
+	else if(S==3)
+	return RandomEnd()
+	else if (S==0)
+	return ""}
+
+function Gender(){
+	if (G==1)
+	return RandomMale()
+	else if (G==2)
+	return RandomFemale()
+	else if (G==3)
+	return RandomNeutral()
+	else if (G==0)
+	return RandomNeutral()}
+
+function BadHabit(){
+	if (P==1)
+	return RandomHomework()
+	else if (P==2)
+	return RandomUnfair()
+	else if (P==3)
+	return RandomBadMemory()
+	else if (P==0)
+	return ""}
+
+function Intelligence(){
+	if (I==1)
+	return RandomSmart()
+	else if (I==2)
+	return ""
+	else if (I==3)
+	return RandomStupid()
+	else if (I==0)
+	return ""}
+
+function Weight(){
+	if (W==1)
+	return RandomFat()
+
+	else if (W==2)
+	return ""
+	else if (W==3)
+	return RandomSkinny()
+	else if (W==0)
+	return ""}
+
+function Looks(){
+	if (L==1)
+	return RandomHot()
+	else if (L==2)
+	return ""
+	else if (L==3)
+	return RandomDog()
+	else if (L==0)
+	return ""}
+
+function Ending(){
+	return RandomIntenseEnd()
+	}
+
+<!--End-->
+</script>
+
+<h4 align="center">Describe your teacher below<br>
+<small>This website was made using AI generated insult words, which were then combined to form sentences.</small>&nbsp; ;-)<br>
+<br>
+</h4>
+
+<form>
+  <p><input type="button" value="Enter Teacher's Name" name="NameButton" onclick="changename()"></p>
+</form>
+<div align="center"><center>
+
+<table align="center" border="1">
+  <tr>
+    <td>Amount of abuse they deserve: <br>
+    <form>
+      <p><input type="radio" name="Choice2" value="suck" onclick="S = 1">Slight Abuse<br>
+      <input type="radio" name="Choice2" value="suck2" onclick="S = 2">Abuse<br>
+      <input type="radio" name="Choice2" value="suck3" onclick="S = 3">Intense Abuse<br>
+      </p>
+    </form>
+    </td>
+    <td>Gender:<br>
+    <form>
+      <p><input type="radio" name="Choice" value="man" onclick="G = 1">Male<br>
+      <input type="radio" name="Choice" value="woman" onclick="G = 2">Female<br>
+      <input type="radio" name="Choice" value="Neutral" onclick="G = 3">Neutral<br>
+      </p>
+    </form>
+    </td>
+    <td>Bad habits:<br>
+    <form>
+      <p><input type="radio" name="Choice" value="suck" onclick="P = 1">Too much homework<br>
+      <input type="radio" name="Choice" value="suck2" onclick="P = 2">Unfair<br>
+      <input type="radio" name="Choice" value="suck3" onclick="P = 3">Bad memory<br>
+      </p>
+    </form>
+    </td>
+  </tr>
+  <tr>
+    <td>Intelligence:<br>
+    <form>
+      <p><input type="radio" name="Choice" value="suck" onclick="I = 1">Smart(they think)<br>
+      <input type="radio" name="Choice" value="suck2" onclick="I = 2">Average<br>
+      <input type="radio" name="Choice" value="suck3" onclick="I = 3">Stupid<br>
+      </p>
+    </form>
+    </td>
+    <td>Weight:<br>
+    <form>
+      <p><input type="radio" name="Choice" value="suck" onclick="W = 1">Overweight<br>
+      <input type="radio" name="Choice" value="suck2" onclick="W = 2">Average<br>
+      <input type="radio" name="Choice" value="suck3" onclick="W = 3">Under<br>
+      </p>
+    </form>
+    </td>
+    <td>Looks:<br>
+    <form>
+      <p><input type="radio" name="Choice" value="suck" onclick="L = 1">Good-looking(or so they think)<br>
+      <input type="radio" name="Choice" value="suck2" onclick="L = 2">Average<br>
+      <input type="radio" name="Choice" value="suck3" onclick="L = 3">Bad-looking<br>
+      </p>
+    </form>
+    </td>
+  </tr>
+</table>
+</center></div>
+
+<form>
+  <p><input type="button" value="Process Insult" name="InsultButton" onclick="process()"></p>
+</form>
+</body>
+<p>
+This website was made possible using AI powered insult generators. We used <a target="_blank" href="https://sweary.com/funny-polite-insult-generator/ "> https://sweary.com/funny-polite-insult-generator/ </a> along with a few other ai insult keyword generators which gave us the key-words we needed in order to form the conditional statemnts which generated random insults. If you read through our source code here: <a target="_blank" href="https://github.com/thinkingjet/teacher-insult-generator">https://github.com/thinkingjet/teacher-insult-generator</a> You'll see that we have a LOT of conditional statements. These statements are responsible for combining the AI-generated keywords and forming the full sentences. Through our project, we aim to give you a gist of what AI is capable of. Hope you like it!</p>
+
+</html>
+
+
